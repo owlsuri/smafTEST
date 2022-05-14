@@ -1,4 +1,4 @@
-import TeamListUI from "./teamList.presenter";
+import TeamListUI from "./teamMember.presenter";
 
 export default function TeamList(){
 

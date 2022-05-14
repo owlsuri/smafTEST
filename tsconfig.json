@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/commons/MiniCalendar/calendar.container.tsx"  ],
   "exclude": [
     "node_modules"
   ]

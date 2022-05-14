@@ -1,8 +1,9 @@
 import ProjectList from '../../commons/projectList/projectList.container'
-import TeamList from '../../commons/teamList/teamList.container'
+import TeamList from '../../commons/teamMember/teamMember.container'
 import * as S from './bodyMain.styles'
 import MiniCalendar from '../../commons/MiniCalendar/calendar.container'
 import Schedules from '../../commons/Schedules/schedules.container'
+import Members from '../../commons/members/members.container'
 
 export default function MainBodyUI(){
 
@@ -16,7 +17,7 @@ export default function MainBodyUI(){
                     <ProjectList />    
                 </S.Info>
                 <S.Info>
-                    <TeamList />   
+                    <Members />   
                 </S.Info>
             </div>
             <S.Calender>

@@ -1,5 +1,5 @@
 import Dropdown01 from '../dropdown/01/dropdown01'
-import * as S from './teamList.styles'
+import * as S from './teamMember.styles'
 
 export default function TeamListUI(){
 
