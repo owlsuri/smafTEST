@@ -6,7 +6,7 @@ export default function ProjectList(){
     const [rate, setRate] = useState(0)
 
     useEffect(()=>{
-        setRate(50)
+        setRate(54)
     },[])
 
     return(

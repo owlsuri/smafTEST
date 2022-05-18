@@ -12,7 +12,7 @@ import { dateValue } from '../store';
 export default function MiniCalendar(){
 
     const [value, onChange] = useRecoilState(dateValue)
-    const [mark, setMark] = useState(["2022-05-25", "2022-05-28"]);
+    const [mark, setMark] = useState(["2022-05-25", "2022-05-28","2022-05-05"]);
 
     return(
     <>
