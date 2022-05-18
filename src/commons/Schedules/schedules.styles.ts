@@ -25,8 +25,16 @@ export const DateInfo=styled.div`
 display: flex;
 align-items: center;
 `
-export const Direction=styled.span`
+export const DirectionBox=styled.span`
 padding-left: 30px;
+`
+export const LDirection=styled.span`
+cursor: pointer;
+
+`
+export const RDirection=styled.span`
+padding-left: 30px;
+cursor: pointer;
 `
 export const AddBtn=styled.button`
 background: #333333;
