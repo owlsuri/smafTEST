@@ -41,6 +41,7 @@ border: none;
 margin-top: 3rem;
 font-size: 1.4rem;
 font-weight: 700;
+cursor: pointer;
 `;
 export const ImgBox = styled.div`
 width: 32rem;
@@ -62,6 +63,7 @@ align-items: center;
 justify-content: center;
 padding-bottom: 0.5rem;
 color: white;
+cursor: pointer;
 `;
 export const Map = styled.div`
   width: 32rem;
